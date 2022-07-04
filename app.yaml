@@ -44,7 +44,8 @@ metadata:
   name: ingress
 spec:
   rules:
-  - http:
+  - host: localhost
+    http:
       paths:
       - path: /
         pathType: Prefix

@@ -22,7 +22,7 @@ metadata:
     app: wil-playground
 spec:
   revisionHistoryLimit: 0 
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: wil-playground
